@@ -3,8 +3,9 @@
 This is a repository for my summer 2023 EEP. Here is where all my project documents will be located.
 
 ## Project Description
+(here)
 
-## Functionality
+## High Level Functionality
 1.
 2.
 3.
