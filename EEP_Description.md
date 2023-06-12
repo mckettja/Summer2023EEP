@@ -3,18 +3,26 @@
 For my Experiential Exploration Program (EEP), I have chosen the [Emerging Professional EEP](https://www.uc.edu/campus-life/careereducation/get-experience/co-op/full-time/options.html). This stragey is designed to build professional and/or technical skills to then be applied to project-based work. I am currently working through courses in JavaScript, HTML, CSS, React.js, and many more. All completed course work can be viewed through a link on [my GitHub profile](https://github.com/mckettja).
 
 ## Application Description
-(here)
+For my personal project, I have decided to create a React.js social media application. My application will include a login splash page, that ultimately leads to a home page with constant data displayed and formatted appropriately. This project is designed to test my skills in React, CSS, HTML, and JSX
 
 *Click [here](https://github.com/mckettja/Summer2023EEP/tree/main/summer-eep-2023) to view all application code inside the summer-eep-2023 folder of the repository.*
 
 ## Skills Practiced
-1. JavaScript
-2. HTML
-3. CSS
-4. JSX (JavaScript Extension)
-5. React.js
-6. Docker
+- JavaScript
+- HTML
+- CSS
+- [JSX (JavaScript Extension)](https://legacy.reactjs.org/docs/introducing-jsx.html)
+- React.js
 
 ## Reader Notes
-- To view all code related to my React.js personal project, go to the summer-EEP-2023 folder on the main code page.
-- 
+1. To view all code related to my React.js personal project, go to the summer-EEP-2023 folder on the main code page.
+2. Copy and open this repository in Microsoft Visual Code.
+3. Use the following commands to run the React.js application on localhost:3000.
+```console
+cd summer-eep-2023
+```
+  - then run,
+```console
+npm start
+```
+  - A tab will open in your default browser to interact with this application.
