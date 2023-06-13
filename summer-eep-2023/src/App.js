@@ -1,20 +1,37 @@
 import React, { useState } from 'react';
 import { Login } from './Login';
 import { Register } from './Register';
+import { Home } from './Home';
 
 function App() {
-  // set default page to login page, not register page
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentForm, setCurrentForm] = useState('Login');
 
-  const changeForm = (form) => {
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+  };
+
+  const handleFormSwitch = (form) => {
     setCurrentForm(form);
-  }
+  };
 
   return (
     <div className="app">
-     {
-       currentForm === "Login" ? <Login onFormSwitch={changeForm} /> : <Register onFormSwitch={changeForm} />
-     }
+      {isLoggedIn ? (
+        <Home onLogout={handleLogout} />
+      ) : (
+        <>
+          {currentForm === 'Login' ? (
+            <Login onLogin={handleLogin} onFormSwitch={handleFormSwitch} />
+          ) : (
+            <Register onFormSwitch={handleFormSwitch} />
+          )}
+        </>
+      )}
     </div>
   );
 }
