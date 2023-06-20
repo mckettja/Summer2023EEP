@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Login } from './Login';
-import { Register } from './Register';
-import { Home } from './Home';
+import { Login } from './components/authForm/Login';
+import { Register } from './components/authForm/Register';
+import { Home } from './components/homePage/Home';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
