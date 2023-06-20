@@ -26,3 +26,8 @@ cd summer-eep-2023
 npm start
 ```
   - A tab will open in your default browser to interact with this application.
+  - Login with the following constant data. This can be found in **Login.jsx**, inside the ***handleSubmit()*** function.
+```console
+Email: devuser@gmail.com
+Password: dev
+```
