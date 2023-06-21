@@ -1,9 +1,14 @@
+/* Navigation bar styling */
+
 .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    color: white;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  color: white;
+  background-color: rgb(216, 98, 14);
+  position: sticky;
+  top: 0;
+}
   
 .navbarLeft {
   flex: 3;
@@ -11,7 +16,6 @@
   font-weight: bold;
   display: flex;
   align-items: center;
-  background-color: red;  /* to visualize */
   padding: 0.75rem;
 }
  
@@ -19,14 +23,13 @@
   flex: 5;
   display: flex;
   align-items: center;
-  background-color: blue; /* to visualize */
 }
   
 .navbarRight {
   flex: 4;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-  background-color: green; /* to visualize */
 }
 
 .logoIcon {
@@ -48,4 +51,72 @@
 .profilePic {
   width: 40px;
   height: 40px;
+  padding-right: 1.0rem;
+}
+
+.homeIcon {
+  font-size: 30px;
+  padding-right: 1.0rem;
+}
+
+.messageIcon {
+  font-size: 30px;
+  padding-right: 1.0rem;
+}
+
+/* Home feed styling */
+
+.homeFeed {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  color: white;
+  background-color: rgb(41, 54, 54);
+  height: 100vh;
+  font-size: 12px;
+}
+
+.homeLeft {
+  flex: 3;
+}
+
+.homeCenter {
+  flex: 7;
+  padding-left: 0.75rem;
+  background-color: blue;
+}
+
+.homeRight {
+  flex: 4;
+  padding-left: 0.75rem;
+  background-color: green;
+}
+
+.listTitle {
+  align-items: center;
+  color: rgb(216, 98, 14);
+  font-size: 20px;
+  margin-left: 2.5rem;
+}
+
+.usefulLinks {
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(136, 184, 231);
+}
+
+.linkIcon {
+  font-size: 24px;
+  padding-right: 1rem;
+}
+
+.usefulLinks:hover {
+  color: rgb(136, 184, 231);
+  text-decoration: underline;
 }
