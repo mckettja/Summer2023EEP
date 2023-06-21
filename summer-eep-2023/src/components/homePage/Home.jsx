@@ -15,7 +15,7 @@ export const Home = (props) => {
                     <input className="searchBar" placeholder="Search for users"></input>
                 </div>
                 <div className="navbarRight">
-                    <img src="/constantData/person1.jpg" alt="" className="profilePic" />
+                    <img src="/src/constantData/people/1.jpg" alt="" className="profilePic" />
                 </div>
             </div>
         </div>
