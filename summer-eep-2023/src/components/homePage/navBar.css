@@ -5,36 +5,43 @@
     color: white;
   }
   
-  .navbarLeft {
-    flex: 3;
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    background-color: red;  /* to visualize */
-    padding: 0.75rem;
-  }
+.navbarLeft {
+  flex: 3;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background-color: red;  /* to visualize */
+  padding: 0.75rem;
+}
+ 
+.navbarCenter {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  background-color: blue; /* to visualize */
+}
   
-  .navbarCenter {
-    flex: 5;
-    display: flex;
-    align-items: center;
-    background-color: blue; /* to visualize */
-  }
-  
-  .navbarRight {
-    flex: 4;
-    display: flex;
-    align-items: center;
-    background-color: green; /* to visualize */
-  }
+.navbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  background-color: green; /* to visualize */
+}
 
-  .logoIcon {
-    font-size: 30px;
-    margin-right: 0.5rem;
-  }
+.logoIcon {
+  font-size: 30px;
+  margin-right: 0.5rem;
+}
 
-  .searchIcon {
-    font-size: 20px;
-    margin-right: 0.5rem;
-  }
+.searchIcon {
+  font-size: 20px;
+  margin: 0 0.5rem;
+
+}
+
+.searchBar {
+  border: none;
+  width: 80%;
+  outline: none;
+}

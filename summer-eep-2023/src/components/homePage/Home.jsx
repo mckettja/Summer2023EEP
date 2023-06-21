@@ -15,7 +15,7 @@ export const Home = (props) => {
                     <input className="searchBar" placeholder="Search for users"></input>
                 </div>
                 <div className="navbarRight">
-                    <span className="placeHolder">Place Holder</span>
+                    <img className="profilePic" src=""/>
                 </div>
             </div>
         </div>
