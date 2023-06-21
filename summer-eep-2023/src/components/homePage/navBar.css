@@ -37,11 +37,15 @@
 .searchIcon {
   font-size: 20px;
   margin: 0 0.5rem;
-
 }
 
 .searchBar {
   border: none;
   width: 80%;
   outline: none;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
 }
