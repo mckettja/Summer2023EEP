@@ -86,7 +86,7 @@ export const Home = (props) => {
                             <span className="timeFeed">7 minutes ago</span>
                         </div>
                         <div className="feedContent">
-                            <span className="feedCaption">Took this on my beautiful morning hike! <strong style={{color: 'rgb(0, 102, 255)'}}>#RockyMountains</strong></span>
+                            <span className="feedCaption">Took this on my beautiful morning hike! <strong style={{color: 'rgb(179, 209, 255)'}}>#RockyMountains</strong></span>
                             <img className="feedPost" src={feedPost1} alt="feed"/>
                         </div>
                         <div className="feedOptions">
