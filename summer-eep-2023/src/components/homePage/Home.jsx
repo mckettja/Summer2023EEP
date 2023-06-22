@@ -1,8 +1,18 @@
 import React from 'react';
 import './home.css';
+
 import profilePic from './constantData/people/1.jpg';
-import feedPic1 from './constantData/people/2.jpg';
-import { BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard, BiPin, BiCollection, BiTime } from "react-icons/bi";
+import feedProfile1 from './constantData/people/2.jpg';
+import feedProfile2 from './constantData/people/3.jpg';
+import feedProfile3 from './constantData/people/4.jpg';
+import feedProfile4 from './constantData/people/5.jpg';
+import feedProfile5 from './constantData/people/6.jpg';
+import feedProfile6 from './constantData/people/7.jpg';
+
+import feedPost1 from './constantData/posts/1.jpg';
+import feedPost2 from './constantData/posts/2.jpg';
+
+import { BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard, BiPin, BiCollection, BiTime, BiLike, BiDislike } from "react-icons/bi";
 
 export const Home = (props) => {
     return (
@@ -14,7 +24,7 @@ export const Home = (props) => {
                 </div>
                 <div className="navbarCenter">
                     <BiSearch className="searchIcon"/>
-                    <input className="searchBar" placeholder="Search for users"></input>
+                    <input className="searchBar" placeholder="Search for users, hashtags, or images..."></input>
                 </div>
                 <div className="navbarRight">
                     <img src={profilePic} alt="profile" className="profilePic" />
@@ -69,73 +79,39 @@ export const Home = (props) => {
                         </div>
                     </div>
                     <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
+                        <div className="feedTopLeft">
+                            <img className="feedProfilePic" src={feedProfile1} alt="profile"/>
+                            <span className="username">Jason McDonald</span>
+                            <BiTime className="timeIcon"/>
+                            <span className="timeFeed">7 minutes ago</span>
+                        </div>
+                        <div className="feedContent">
+                            <span className="feedCaption">Took this on my beautiful morning hike! <strong style={{color: 'rgb(0, 102, 255)'}}>#RockyMountains</strong></span>
+                            <img className="feedPost" src={feedPost1} alt="feed"/>
+                        </div>
+                        <div className="feedOptions">
+                            <span className="like">Like this content</span>
+                            <BiLike className="likeButton" />
+                            <span className="dislike">Avoid this content</span>
+                            <BiDislike className="dislikeButton"/>
                         </div>
                     </div>
                     <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
+                        <div className="feedTopLeft">
+                            <img className="feedProfilePic" src={feedProfile2} alt="profile"/>
+                            <span className="username">Janet Li</span>
+                            <BiTime className="timeIcon"/>
+                            <span className="timeFeed">18 minutes ago</span>
                         </div>
-                    </div>
-                    <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
+                        <div className="feedContent">
+                            <span className="feedCaption">I'm the queen of the world!</span>
+                            <img className="feedPost" src={feedPost2} alt="feed"/>
                         </div>
-                    </div>
-                    <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="feed">
-                        <div className="post">
-                            <div className="feedTopLeft">
-                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
-                                <span className="username">Jason McDonald</span>
-                                <BiTime className="timeIcon"/>
-                                <span className="timeFeed">7 minutes ago</span>
-                            </div>
+                        <div className="feedOptions">
+                            <span className="like">Like this content</span>
+                            <BiLike className="likeButton" />
+                            <span className="dislike">Avoid this content</span>
+                            <BiDislike className="dislikeButton"/>
                         </div>
                     </div>
                 </div>
