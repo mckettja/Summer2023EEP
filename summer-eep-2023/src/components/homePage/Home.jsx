@@ -48,7 +48,16 @@ export const Home = (props) => {
                     </ul>
                 </div>
                 <div className="homeCenter">
-                    <h1>center</h1>
+                    <div className="post">
+                        <div className="postTop">
+                            <img className="postProfilePic" src="/constantData/people/2.jpg" alt="none"/>
+                            <input placeholder="Caption your photo..." className="postInput"></input>
+                        </div>
+                        <hr className="postHR" />
+                        <div className="postBottom">
+
+                        </div>
+                    </div>
                 </div>
                 <div className="homeRight">
                     <h1>right</h1>
