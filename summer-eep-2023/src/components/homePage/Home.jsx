@@ -1,6 +1,8 @@
 import React from 'react';
-import './navBar.css';
-import { BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard } from "react-icons/bi";
+import './home.css';
+import profilePic from './constantData/people/1.jpg';
+import feedPic1 from './constantData/people/2.jpg';
+import { BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard, BiPin, BiCollection, BiTime } from "react-icons/bi";
 
 export const Home = (props) => {
     return (
@@ -15,7 +17,7 @@ export const Home = (props) => {
                     <input className="searchBar" placeholder="Search for users"></input>
                 </div>
                 <div className="navbarRight">
-                    <img src="/src/constantData/people/2.jpg" alt="none" className="icons" />
+                    <img src={profilePic} alt="profile" className="profilePic" />
                     <BiHomeAlt2 className="homeIcon"/>
                     <BiMessageDetail className="messageIcon"/>
                 </div>
@@ -50,12 +52,90 @@ export const Home = (props) => {
                 <div className="homeCenter">
                     <div className="post">
                         <div className="postTop">
-                            <img className="postProfilePic" src="/constantData/people/2.jpg" alt="none"/>
+                            <img className="postProfilePic" src={profilePic} alt="profile"/>
                             <input placeholder="Caption your photo..." className="postInput"></input>
                         </div>
                         <hr className="postHR" />
                         <div className="postBottom">
-
+                            <div className="sharePhoto">
+                                <BiCamera className="shareIcon"/>
+                                <span className="sharePhotoText">Add your photo</span>
+                                <BiPin className="pinIcon"/>
+                                <span className="sharePhotoText">Location</span>
+                                <BiCollection className="draftIcon"/>
+                                <span className="sharePhotoText">Drafts</span>
+                                <button className="submitPost">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="post">
+                            <div className="feedTopLeft">
+                                <img className="feedProfilePic" src={feedPic1} alt="profile"/>
+                                <span className="username">Jason McDonald</span>
+                                <BiTime className="timeIcon"/>
+                                <span className="timeFeed">7 minutes ago</span>
+                            </div>
                         </div>
                     </div>
                 </div>

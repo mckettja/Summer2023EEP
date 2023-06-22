@@ -1,0 +1,251 @@
+/*-------------------------------- Navigation bar styling --------------------------------*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  color: white;
+  background-color: rgb(242, 120, 33);
+  position: sticky;
+  top: 0;
+}
+  
+.navbarLeft {
+  flex: 3;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+}
+ 
+.navbarCenter {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+  
+.navbarRight {
+  flex: 4;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.logoIcon {
+  font-size: 30px;
+  margin-right: 0.5rem;
+}
+
+.searchIcon {
+  font-size: 20px;
+  margin: 0 0.5rem;
+}
+
+.searchBar {
+  border: none;
+  width: 90%;
+  outline: none;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  padding-right: 1.0rem;
+}
+
+.homeIcon {
+  font-size: 30px;
+  padding-right: 1.5rem;
+}
+
+.homeIcon:hover {
+  cursor: pointer;
+}
+
+.messageIcon {
+  font-size: 30px;
+  padding-right: 1.0rem;
+}
+
+.messageIcon:hover {
+  cursor: pointer;
+}
+
+.profilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 0.5rem;
+}
+
+/* Home feed styling and structure */
+
+.homeFeed {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  color: white;
+  background-color: rgb(43, 43, 43);
+  height: 100vh;
+  font-size: 12px;
+}
+
+.homeLeft {
+  flex: 3;
+}
+
+.homeCenter {
+  flex: 7;
+}
+
+.homeRight {
+  flex: 4;
+  padding-left: 0.75rem;
+}
+
+/*-------------------------------- Home left styling --------------------------------*/
+
+.listTitle {
+  align-items: center;
+  color: rgb(242, 120, 33);
+  font-size: 20px;
+  margin-left: 2.5rem;
+}
+
+.usefulLinks {
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkIcon {
+  font-size: 24px;
+  padding-right: 1rem;
+}
+
+.usefulLinks:hover {
+  color: rgb(242, 120, 33);
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/*-------------------------------- Home Center Styling --------------------------------*/
+
+/* Styling your own post div */
+
+.post {
+  width: 100%;
+  height: 10.0rem;
+  background-color: rgb(187, 187, 187);
+  border-radius: 10px;
+  box-shadow: 9px 12px 16px -2px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 9px 12px 16px -2px rgba(0,0,0,0.35);
+  -moz-box-shadow: 9px 12px 16px -2px rgba(0,0,0,0.35);
+  margin-top: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+}
+
+.postProfilePic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 0.5rem;
+}
+
+.postInput {
+  width: 70%;
+}
+
+.postBottom {
+  align-items: center;
+}
+
+.shareIcon {
+  color: blue;
+  font-size: 24px;
+  padding: 1.0rem 0.5rem 0 1.0rem;
+  cursor: pointer;
+}
+
+.pinIcon {
+  color: red;
+  font-size: 24px;
+  padding: 1.0rem 0.5rem 0 1.0rem;
+  cursor: pointer;                    
+}
+
+.draftIcon {
+  color: green;
+  font-size: 24px;
+  padding: 1.0rem 0.5rem 0 1.0rem;
+  cursor: pointer;                    
+}
+
+.sharePhotoText {
+  color: black;
+  font-size: 16px;
+  position: relative;
+  top: -0.5rem;
+}
+
+.submitPost {
+  position: relative;
+  left: 30.0rem;
+  background-color: rgb(242, 120, 33);;
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.submitPost:hover {
+  background-color: rgb(212, 107, 32);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Styling feed div */
+
+.feedTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin: 0 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.timeFeed {
+  margin: 0 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.timeIcon {
+  color: black;
+  font-size: 16px;
+  margin-left: 2.0rem;
+}
+
+.feedProfilePic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 0.5rem;
+}
+
+/*-------------------------------- Home Right Styling --------------------------------*/
