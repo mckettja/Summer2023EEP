@@ -1,16 +1,19 @@
 import React from 'react';
 import './home.css';
 
-import profilePic from './constantData/people/1.jpg';
+import profilePic from './constantData/people/6.jpg';
 import feedProfile1 from './constantData/people/2.jpg';
 import feedProfile2 from './constantData/people/3.jpg';
 import feedProfile3 from './constantData/people/4.jpg';
 import feedProfile4 from './constantData/people/5.jpg';
-import feedProfile5 from './constantData/people/6.jpg';
+import feedProfile5 from './constantData/people/1.jpg';
 import feedProfile6 from './constantData/people/7.jpg';
 
 import feedPost1 from './constantData/posts/1.jpg';
 import feedPost2 from './constantData/posts/2.jpg';
+import feedPost3 from './constantData/posts/3.jpg';
+import feedPost4 from './constantData/posts/4.jpg';
+import feedPost5 from './constantData/posts/5.jpg';
 
 import { BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard, BiPin, BiCollection, BiTime, BiLike, BiDislike } from "react-icons/bi";
 
@@ -106,6 +109,60 @@ export const Home = (props) => {
                         <div className="feedContent">
                             <span className="feedCaption">I'm the queen of the world!</span>
                             <img className="feedPost" src={feedPost2} alt="feed"/>
+                        </div>
+                        <div className="feedOptions">
+                            <span className="like">Like this content</span>
+                            <BiLike className="likeButton" />
+                            <span className="dislike">Avoid this content</span>
+                            <BiDislike className="dislikeButton"/>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="feedTopLeft">
+                            <img className="feedProfilePic" src={feedProfile3} alt="profile"/>
+                            <span className="username">Lindsey Davis</span>
+                            <BiTime className="timeIcon"/>
+                            <span className="timeFeed">7 hours ago</span>
+                        </div>
+                        <div className="feedContent">
+                            <span className="feedCaption">View from the office <strong style={{color: 'rgb(179, 209, 255)'}}>#NewYorkCity</strong></span>
+                            <img className="feedPost" src={feedPost3} alt="feed"/>
+                        </div>
+                        <div className="feedOptions">
+                            <span className="like">Like this content</span>
+                            <BiLike className="likeButton" />
+                            <span className="dislike">Avoid this content</span>
+                            <BiDislike className="dislikeButton"/>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="feedTopLeft">
+                            <img className="feedProfilePic" src={feedProfile4} alt="profile"/>
+                            <span className="username">David Klein</span>
+                            <BiTime className="timeIcon"/>
+                            <span className="timeFeed">13 hours ago</span>
+                        </div>
+                        <div className="feedContent">
+                            <span className="feedCaption">This took me hours, but it was well worth it!</span>
+                            <img className="feedPost" src={feedPost4} alt="feed"/>
+                        </div>
+                        <div className="feedOptions">
+                            <span className="like">Like this content</span>
+                            <BiLike className="likeButton" />
+                            <span className="dislike">Avoid this content</span>
+                            <BiDislike className="dislikeButton"/>
+                        </div>
+                    </div>
+                    <div className="feed">
+                        <div className="feedTopLeft">
+                            <img className="feedProfilePic" src={feedProfile5} alt="profile"/>
+                            <span className="username">Ashley Micheals</span>
+                            <BiTime className="timeIcon"/>
+                            <span className="timeFeed">1 day ago</span>
+                        </div>
+                        <div className="feedContent">
+                            <span className="feedCaption">A well deserved vacation</span>
+                            <img className="feedPost" src={feedPost5} alt="feed"/>
                         </div>
                         <div className="feedOptions">
                             <span className="like">Like this content</span>
