@@ -111,16 +111,26 @@
 
 /*-------------------------------- Home left styling --------------------------------*/
 
+.usefulLinksContainer {
+  margin: 2.0rem;
+  border: solid rgb(56, 56, 56) 2px;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  -webkit-box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  -moz-box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  border-radius: 5%;
+}
+
 .listTitle {
   align-items: center;
   color: rgb(242, 120, 33);
-  font-size: 20px;
+  font-size: 24px;
   margin-left: 2.5rem;
 }
 
 .usefulLinks {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   list-style-type: none;
   padding: 0.5rem;
 }
@@ -241,14 +251,14 @@ a:hover {
 
 .username {
   margin: 0 10px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-weight: bold;
 }
 
 .timeFeed {
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
 }
 
@@ -289,7 +299,7 @@ a:hover {
 }
 
 .feedCaption {
-  font-size: 16px;
+  font-size: 24px;
   color: white;
 }
 
@@ -315,7 +325,7 @@ a:hover {
 
 .like {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   padding-left: 0.5;
   position: relative;
   top: -0.4rem;
@@ -324,10 +334,65 @@ a:hover {
 
 .dislike {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   padding-left: 0.5;
   position: relative;
   top: -0.4rem;
   padding-left: 0.75rem;
 }
 /*-------------------------------- Home Right Styling --------------------------------*/
+
+.birthdayContainer {
+  margin: 3.0rem;
+  border: solid rgb(56, 56, 56) 2px;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  -webkit-box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  -moz-box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  border-radius: 10%;
+  padding: 1.5rem;
+}
+
+.birthdayIcon {
+  width: 60px;
+  height: 60px;
+  margin-right: 1.0rem;
+}
+
+.birthdayMessage {
+  font-size: 24px;
+}
+
+.friendsContainer {
+  margin: 3.0rem;
+  border: solid rgb(56, 56, 56) 2px;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  -webkit-box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  -moz-box-shadow: 10px 6px 13px 2px rgba(51,50,50,0.75);
+  border-radius: 5%;
+}
+
+.friendsTitle {
+  align-items: center;
+  color: rgb(242, 120, 33);
+  font-size: 30px;
+  margin-left: 2.5rem;
+  padding: 1.0rem;
+  margin-top: 20px;
+  position: relative;
+  top: 1.5rem;
+}
+
+.friendsList {
+  list-style-type: none;
+  align-items: center;
+  margin-top: 3.0rem;
+}
+
+.friendName {
+  font-size: 20px;
+  position: relative;
+  top: -2.0rem;
+  margin-left: 0.75rem;
+}
