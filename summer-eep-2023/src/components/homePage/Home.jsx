@@ -16,7 +16,7 @@ import feedPost4 from './constantData/posts/4.jpg';
 import feedPost5 from './constantData/posts/5.jpg';
 import feedPost6 from './constantData/posts/6.jpg';
 
-import {BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard, BiPin, BiCollection, BiTime, BiLike, BiDislike } from "react-icons/bi";
+import {BiSearch, BiCamera, BiHomeAlt2, BiMessageDetail, BiGlobe, BiPencil, BiClipboard, BiPin, BiCollection, BiTime, BiLike, BiDislike, BiGift } from "react-icons/bi";
 
 export const Home = (props) => {
     return (
@@ -195,7 +195,7 @@ export const Home = (props) => {
                 </div>
                 <div className="homeRight">                 {/* <----------- home right div -----------> */}
                     <div className="birthdayContainer">
-                        <img className="birthdayIcon" src="" alt="none" />
+                        <BiGift className="birthdayIcon"/>
                         <span className="birthdayMessage">
                         <strong style={{color: 'rgb(242, 120, 33)'}}>Today</strong> is <strong style={{color: 'rgb(242, 120, 33)'}}>David Klein's</strong> birthday! Send them a message!
                         </span>
