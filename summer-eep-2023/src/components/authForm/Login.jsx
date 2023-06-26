@@ -17,11 +17,11 @@ export const Login = (props) => {
     }
 
     return (
-        <div className="auth-container">
-            <div className="auth-border">
-                <label className="site-title">Image Social</label>
-                <label className="auth-title">log in</label>
-                <form className="login-form" onSubmit={handleSubmit}>
+        <div className="authContainer">
+            <div className="authBorder">
+                <label className="siteTitle">Image Social</label>
+                <label className="authTitle">log in</label>
+                <form className="loginForm" onSubmit={handleSubmit}>
                     <label htmlfor="email">email</label>
                     <input 
                         value={email} 
@@ -42,9 +42,9 @@ export const Login = (props) => {
                         name="password" 
                     />
 
-                    <button className="auth-button" onClick={handleSubmit} type="submit">Log in</button>
+                    <button className="authButton" onClick={handleSubmit} type="submit">Log in</button>
                 </form>
-                <button className="link-button" onClick={() => props.onFormSwitch('Register')}>Don't have an account? Register now!</button>
+                <button className="linkButton" onClick={() => props.onFormSwitch('Register')}>Don't have an account? Register now!</button>
             </div>
         </div>
     )
