@@ -4,8 +4,8 @@
   flex-direction: row;
   align-items: left;
   color: white;
-  background: rgb(20,209,236);
-  background: linear-gradient(0deg, rgba(20,209,236,1) 0%, rgba(253,125,45,1) 100%);
+  background: rgb(60,5,73);
+  background: linear-gradient(0deg, rgba(60,5,73,1) 0%, rgba(253,125,45,1) 100%);
   position: sticky;
   top: 0;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

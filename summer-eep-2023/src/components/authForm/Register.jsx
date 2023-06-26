@@ -11,11 +11,11 @@ export const Register = (props) => {
     }
 
     return (
-        <div className="auth-container">
-            <div className="auth-border">
-                <label className="site-title">Image Social</label>
-                <label className="auth-title">register</label>
-                <form className="register-form" onSubmit={handleSubmit}>
+        <div className="authContainer">
+            <div className="authBorder">
+                <label className="siteTitle">Image Social</label>
+                <label className="authTitle">register</label>
+                <form className="registerForm" onSubmit={handleSubmit}>
                     <label>full name</label>
                     <input 
                         value={fullName} 
@@ -45,9 +45,9 @@ export const Register = (props) => {
                         name="password" 
                     />
 
-                    <button className="auth-button" type="submit">Register</button>
+                    <button className="authButton" type="submit">Register</button>
                 </form>
-                <button className="link-button" onClick={() => props.onFormSwitch('Login')}>Already have an account? Sign in here!</button>
+                <button className="linkButton" onClick={() => props.onFormSwitch('Login')}>Already have an account? Sign in here!</button>
             </div>
         </div>
     )

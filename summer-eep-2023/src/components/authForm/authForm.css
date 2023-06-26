@@ -1,6 +1,6 @@
 /* Login and register page styling */
 
-.auth-container, .login-form, .register-form {
+.authContainer, .loginForm, .registerForm {
   align-items: center;
   justify-content: left;
   display: flex;
@@ -9,14 +9,14 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.auth-container {
+.authContainer {
   align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
   
-.auth-border {
+.authBorder {
   margin-top: 5rem;
   padding: 10rem;
   border: 2px solid white;
@@ -40,7 +40,7 @@ input {
   border: none;
 }
   
-.auth-title {
+.authTitle {
   font-size: 30px;
   text-align: center;
   font-style: bold;
@@ -48,26 +48,34 @@ input {
   padding-bottom: 2rem;
 }
   
-.site-title {
+.siteTitle {
   font-family: sans-serif;
   font-size: 40px;
   margin-bottom: 25px;
 }
   
-.auth-button {
+.authButton {
   border: none;
   background-color: rgb(95, 95, 211);
-  color: white;
+  color: black;
   margin: 10px;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
+
+.authButton:hover {
+  background-color: rgb(85, 85, 189);
+}
   
-.link-button {
+.linkButton {
   border: none;
   background: none;
-  color: rgb(58, 58, 248);
+  color: rgb(156, 156, 248);
   text-decoration: underline;
   cursor: pointer;
+}
+
+.linkButton:hover {
+  color: rgb(85, 85, 189);
 }
