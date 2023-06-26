@@ -14,6 +14,6 @@ code {
 
 .app {
   min-height: 100vh;
-  background: rgb(60,5,73);
-  background: linear-gradient(45deg, rgba(60,5,73,1) 0%, rgba(253,125,45,1) 100%);
+  background: rgb(253,125,45);
+  background: linear-gradient(180deg, rgba(253,125,45,1) 21%, rgba(60,5,73,1) 65%, rgba(0,0,0,1) 97%);
 }
