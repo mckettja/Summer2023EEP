@@ -21,7 +21,7 @@ For my personal project, I have decided to create a React.js social media applic
 ```console
 cd summer-eep-2023
 ```
-  - then run,
+  - then enter,
 ```console
 npm start
 ```
