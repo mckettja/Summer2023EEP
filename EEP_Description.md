@@ -3,7 +3,7 @@
 For my Experiential Exploration Program (EEP), I have chosen the [Emerging Professional EEP](https://www.uc.edu/campus-life/careereducation/get-experience/co-op/full-time/options.html). This stragey is designed to build professional and/or technical skills to then be applied to project-based work. I am currently working through courses in JavaScript, HTML, CSS, React.js, and many more. All completed course work can be viewed through a link on [my GitHub profile](https://github.com/mckettja).
 
 ## Application Description
-For my personal project, I have decided to create a React.js social media application. My application will include a login splash page, that ultimately leads to a stylized home page with constant data displayed and formatted appropriately. This project is designed to test my skills in React, CSS, HTML, and JSX
+For my personal project, I have decided to create a React.js social media application. My application will include a login splash page, that ultimately leads to a stylized home page with constant data displayed and formatted appropriately. This project is designed to test my skills in React, CSS, HTML, and JSX.
 
 *Click [here](https://github.com/mckettja/Summer2023EEP/tree/main/summer-eep-2023) to view all application code inside the summer-eep-2023 folder of the repository.*
 
